@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="TextToSpeech_Custom.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TextToSpeech_Custom"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="LightSteelBlue">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox TextWrapping="Wrap"  Width="300" PlaceholderText="Enter Text to speak" Name="txtToSpeak"/>
+            <Button Content="Say the Text" FontSize="20" FontStyle="Italic" Click="speakTheText"/>
+        </StackPanel>
+    </Grid>
+</Page>
