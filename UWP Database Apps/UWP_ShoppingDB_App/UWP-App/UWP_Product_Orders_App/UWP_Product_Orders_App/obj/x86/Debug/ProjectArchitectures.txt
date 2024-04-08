@@ -1,0 +1,1 @@
+C:\Users\UWP\source\repos\UWP_Product_Orders_App\UWP_Product_Orders_App\UWP_Product_Orders_App.csproj;x86
