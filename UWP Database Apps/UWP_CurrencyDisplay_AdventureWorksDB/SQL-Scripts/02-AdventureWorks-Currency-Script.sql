@@ -1,4 +1,4 @@
-USE AW2019;
+USE AdventureWorks2022;
 
 -- Currency Table Data
 SELECT * FROM Sales.Currency;
