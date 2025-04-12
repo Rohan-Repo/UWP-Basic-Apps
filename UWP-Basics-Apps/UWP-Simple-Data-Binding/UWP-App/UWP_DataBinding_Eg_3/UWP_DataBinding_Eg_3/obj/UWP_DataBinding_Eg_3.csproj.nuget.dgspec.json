@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3.csproj": {}
+  },
+  "projects": {
+    "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3.csproj",
+        "projectName": "UWP_DataBinding_Eg_3",
+        "projectPath": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3.csproj",
+        "packagesPath": "C:\\Users\\UWP-User\\.nuget\\packages\\",
+        "outputPath": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_DataBinding_Eg_3\\UWP_DataBinding_Eg_3\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\UWP-User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.14, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

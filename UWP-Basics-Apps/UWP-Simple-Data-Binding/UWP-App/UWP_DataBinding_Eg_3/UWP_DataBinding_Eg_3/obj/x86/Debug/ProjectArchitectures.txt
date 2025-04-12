@@ -1,0 +1,1 @@
+C:\Users\UWP\source\repos\UWP_DataBinding_Eg_3\UWP_DataBinding_Eg_3\UWP_DataBinding_Eg_3.csproj;x86

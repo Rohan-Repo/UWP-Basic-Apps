@@ -1,0 +1,1 @@
+C:\Chkk\UWP_CodeBase\source\repos\UWPStudForm\UWPStudForm\UWPStudForm.csproj;x64

@@ -1,0 +1,120 @@
+﻿<Page
+    x:Class="UWPStudForm.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPStudForm"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Azure">
+        <!--For Form Header-->
+        <TextBlock HorizontalAlignment="Center" 
+                   TextWrapping="Wrap" 
+                   Text="Student Information Form" 
+                   VerticalAlignment="Top"
+                   FontSize="30" FontWeight="Bold"/>
+
+        <!--For Username -->
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="85,100,0,0" 
+            TextWrapping="Wrap" 
+            Text="Name" 
+            VerticalAlignment="Top"
+            FontSize="20" FontWeight="Bold"/>
+        <TextBox x:ConnectionId='2' 
+            HorizontalAlignment="Left" 
+            Margin="268,100,0,0" TextWrapping="Wrap" 
+            PlaceholderText="Enter your name" 
+            VerticalAlignment="Top"
+            Width="300"
+            Name="txtUserName"/>
+
+        <!--For the Age -->
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="85,200,0,0" 
+            TextWrapping="Wrap" 
+            Text="Age" 
+            VerticalAlignment="Top"
+            FontSize="20" FontWeight="Bold"/>
+        <TextBox x:ConnectionId='3' 
+            HorizontalAlignment="Left" 
+            Margin="268,200,0,0" 
+            VerticalAlignment="Top"
+            PlaceholderText="Enter your age"
+            Name="txtAge"
+            Width="300"            
+            />
+        
+
+        <!--For the Gender-->
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="85,300,0,0" 
+            TextWrapping="Wrap" 
+            Text="Gender" 
+            VerticalAlignment="Top"
+            FontWeight="Bold" FontSize="20"/>
+        <RadioButton x:ConnectionId='4' 
+            Content="M" 
+            Margin="268,300,0,0" VerticalAlignment="Top"
+            FontWeight="Bold" FontSize="15"
+            Name="radioM" GroupName="groupGender"/>
+        <RadioButton x:ConnectionId='5' 
+            Content="F" 
+            Margin="450,300,0,0" VerticalAlignment="Top"
+            FontWeight="Bold" FontSize="15"
+            Name="radioF" GroupName="groupGender"/>
+
+        <RadioButton x:ConnectionId='6' 
+            Content="O" 
+            Margin="650,300,0,0" VerticalAlignment="Top"
+            FontWeight="Bold" FontSize="15"
+            Name="radioO" GroupName="groupGender"/>
+
+        <!-- For the Country -->
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="85,400,0,0" 
+            TextWrapping="Wrap" 
+            Text="Country" 
+            VerticalAlignment="Top"
+            FontSize="20" FontWeight="Bold"/>
+        <ComboBox x:ConnectionId='7' Margin="268,400,0,0" Width="200" PlaceholderText="Select your Country" Name="comboCountry">
+            <x:String> Canada </x:String>
+            <x:String> USA </x:String>
+            <x:String> India </x:String>
+            <x:String> UK </x:String>
+        </ComboBox>
+
+        <!--Buttons at the end-->
+        <!--For the buttons at the End-->
+        <Button x:ConnectionId='8' 
+            Content="Sign-up" 
+            Margin="100,550,0,0" 
+            VerticalAlignment="Top"
+            FontSize="15" FontWeight="Bold"
+            Name="btnSignUp"
+            Width="150"                        />
+        <Button x:ConnectionId='9' 
+            Content="Reset Form" 
+            Margin="350,550,0,0" 
+            VerticalAlignment="Top"
+            FontSize="15" FontWeight="Bold"
+            Name="btnResetForm"
+            Width="150"                           />
+        <Button x:ConnectionId='10' 
+            Content="Close Form" 
+            Margin="600,550,0,0" 
+            VerticalAlignment="Top"
+            FontSize="15" FontWeight="Bold"
+            Name="btnCloseForm"
+            Width="150"                           />
+
+
+    </Grid>
+</Page>
+

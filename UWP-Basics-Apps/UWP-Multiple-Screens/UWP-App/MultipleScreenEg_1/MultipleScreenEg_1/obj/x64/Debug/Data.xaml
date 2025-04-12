@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="MultipleScreenEg_1.Data"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MultipleScreenEg_1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="LemonChiffon" BorderBrush="Purple">
+        <TextBlock x:ConnectionId='2' Name="txtStr" Text="Navigated from previous screen!" Foreground="Purple" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </Grid>
+</Page>
+
