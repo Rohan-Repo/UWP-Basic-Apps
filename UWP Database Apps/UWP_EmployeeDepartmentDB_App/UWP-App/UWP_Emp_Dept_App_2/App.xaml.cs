@@ -23,7 +23,7 @@ namespace UWP_Emp_Dept_App_2
     sealed partial class App : Application
     {
         private string connectionString =
-        @"Data Source=ROHAN-XPS-15;Initial Catalog=CompDB;Integrated Security=SSPI";
+        @"Data Source=serverName/instanceName;Initial Catalog=ShoppingDB;Integrated Security=SSPI";
 
         // This is an example connection string for using SQL Server Authentication.
         // private string connectionString =
