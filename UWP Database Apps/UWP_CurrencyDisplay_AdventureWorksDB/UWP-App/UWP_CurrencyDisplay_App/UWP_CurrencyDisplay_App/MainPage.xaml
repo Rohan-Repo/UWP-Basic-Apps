@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="UWP_CurrencyDisplay_App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_CurrencyDisplay_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Azure">
+        <RelativePanel>
+            <ListView Name="currencyListView" Margin="10"
+                      Padding="5" BorderBrush="DarkSlateGray"
+                      BorderThickness="2" Foreground="DarkSlateGray">
+                <ListView.HeaderTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal"
+                                    Spacing="10" Padding="5">
+                            <TextBlock Text="FromCurrencyCode"
+                                       FontWeight="Bold"
+                                       Width="150"/>
+                            <TextBlock Text="FromCurrencyStr"
+                                       FontWeight="Bold"
+                                       Width="150"/>
+                            <TextBlock Text="ToCurrencyCode"
+                                       FontWeight="Bold"
+                                       Width="150"/>
+                            <TextBlock Text="ToCurrencyStr"
+                                       FontWeight="Bold"
+                                       Width="200"/>
+                            <TextBlock Text="MaxAverageRate"
+                                       FontWeight="Bold"
+                                       Width="150"/>
+                            <TextBlock Text="MaxEndOfDayRate"
+                                       FontWeight="Bold"
+                                       Width="150"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.HeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="local:CurrencyData">
+                        <StackPanel Orientation="Horizontal"
+                                    Spacing="10" Padding="5">
+                            <TextBlock Name="fromCurrencyCode"
+                                       Width="150"
+                                       FontWeight="SemiBold"
+                                       Text="{x:Bind fromCurrencyCode}"/>
+                            <TextBlock Name="fromCurrencyStr"
+                                       Width="150"
+                                       FontWeight="SemiBold"
+                                       Text="{x:Bind fromCurrencyCodeStr}"/>
+                            <TextBlock Name="toCurrencyCode"
+                                       Width="150"
+                                       FontWeight="SemiBold"
+                                       Text="{x:Bind toCurrencyCode}"/>
+                            <TextBlock Name="toCurrencyStr"
+                                       FontWeight="SemiBold"
+                                       Width="200"
+                                       Text="{x:Bind toCurrencyCodeStr}"/>
+                            <TextBlock Name="maxAvgRate"
+                                       FontWeight="SemiBold"
+                                       Width="150"
+                                       Text="{x:Bind maxAverageRate}"/>
+                            <TextBlock Name="maxEODRate"
+                                       FontWeight="SemiBold"
+                                       Width="150"
+                                       Text="{x:Bind maxEndOfDayRate}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </RelativePanel>
+    </Grid>
+</Page>

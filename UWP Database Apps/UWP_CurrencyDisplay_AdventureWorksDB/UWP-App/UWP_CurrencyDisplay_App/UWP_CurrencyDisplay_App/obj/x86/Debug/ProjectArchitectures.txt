@@ -1,0 +1,1 @@
+C:\Users\UWP\source\repos\UWP_CurrencyDisplay_App\UWP_CurrencyDisplay_App\UWP_CurrencyDisplay_App.csproj;x86

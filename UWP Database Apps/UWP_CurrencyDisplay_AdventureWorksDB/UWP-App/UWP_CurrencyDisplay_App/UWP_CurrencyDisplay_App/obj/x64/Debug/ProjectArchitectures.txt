@@ -1,0 +1,1 @@
+C:\Chkk\PROG1198-LMS-Code-Saturday\UWP_CurrencyDisplay_App\UWP_CurrencyDisplay_App\UWP_CurrencyDisplay_App.csproj;x64

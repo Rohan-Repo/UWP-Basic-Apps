@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{883C0F93-558E-41B6-85CD-9CF0473E0CC6}|UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App.csproj|C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\uwp_currencydisplay_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883C0F93-558E-41B6-85CD-9CF0473E0CC6}|UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App.csproj|solutionrelative:uwp_currencydisplay_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883C0F93-558E-41B6-85CD-9CF0473E0CC6}|UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App.csproj|C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\uwp_currencydisplay_app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883C0F93-558E-41B6-85CD-9CF0473E0CC6}|UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App.csproj|solutionrelative:uwp_currencydisplay_app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883C0F93-558E-41B6-85CD-9CF0473E0CC6}|UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App.csproj|C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\uwp_currencydisplay_app\\currencydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883C0F93-558E-41B6-85CD-9CF0473E0CC6}|UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App.csproj|solutionrelative:uwp_currencydisplay_app\\currencydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883C0F93-558E-41B6-85CD-9CF0473E0CC6}|UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App.csproj|c:\\chkk\\prog1198-lms-code-saturday\\uwp_currencydisplay_app\\uwp_currencydisplay_app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{883C0F93-558E-41B6-85CD-9CF0473E0CC6}|UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App.csproj|solutionrelative:uwp_currencydisplay_app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App\\MainPage.xaml",
+              "RelativeDocumentMoniker": "UWP_CurrencyDisplay_App\\MainPage.xaml",
+              "ToolTip": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App\\MainPage.xaml",
+              "RelativeToolTip": "UWP_CurrencyDisplay_App\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T02:59:57.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "UWP_CurrencyDisplay_App\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App\\MainPage.xaml.cs",
+              "RelativeToolTip": "UWP_CurrencyDisplay_App\\MainPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCgAAABAAgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T02:59:57.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrencyData.cs",
+              "DocumentMoniker": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App\\CurrencyData.cs",
+              "RelativeDocumentMoniker": "UWP_CurrencyDisplay_App\\CurrencyData.cs",
+              "ToolTip": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App\\CurrencyData.cs",
+              "RelativeToolTip": "UWP_CurrencyDisplay_App\\CurrencyData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T02:59:57.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App\\App.xaml.cs",
+              "RelativeDocumentMoniker": "UWP_CurrencyDisplay_App\\App.xaml.cs",
+              "ToolTip": "C:\\Chkk\\PROG1198-LMS-Code-Saturday\\UWP_CurrencyDisplay_App\\UWP_CurrencyDisplay_App\\App.xaml.cs",
+              "RelativeToolTip": "UWP_CurrencyDisplay_App\\App.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T02:59:57.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
