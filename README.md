@@ -52,3 +52,12 @@ git clone https://github.com/Rohan-Repo/Universal-Windows-Platform-Applications.
 GPL-2.0 License
 
 ---
+
+## 👤 Author
+
+**Rohan D** — Workforce Development Program Coordinator
+Technical Instructor — IT Support · Web Development · Data Analytics · Databases · Programming
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/deshpande-rohan/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/Rohan-Repo)
+
